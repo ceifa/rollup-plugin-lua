@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-lua",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Rollup plugin for import and run Lua scripts",
   "main": "src/index.js",
   "scripts": {
