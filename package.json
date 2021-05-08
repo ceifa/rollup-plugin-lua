@@ -1,0 +1,34 @@
+{
+  "name": "rollup-plugin-lua",
+  "version": "0.0.1",
+  "description": "Rollup plugin for import and run Lua scripts",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceifa/rollup-plugin-lua.git"
+  },
+  "keywords": [
+    "rollup",
+    "plugin",
+    "lua",
+    "wasmoon"
+  ],
+  "type": "module",
+  "author": "ceifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ceifa/rollup-plugin-lua/issues"
+  },
+  "homepage": "https://github.com/ceifa/rollup-plugin-lua#readme",
+  "devDependencies": {
+    "luaparse": "0.3.0",
+    "rollup": "2.47.0"
+  },
+  "peerDependencies": {
+    "rollup": "^2.38.3",
+    "wasmoon": "^1.7.1"
+  }
+}
